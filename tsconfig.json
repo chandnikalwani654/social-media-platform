@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist/",
+        "baseUrl": ".",
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "module": "esnext",
+        "target": "esnext",
+        "sourceMap": true,
+        "jsx": "react",
+        "allowJs": true,
+        "moduleResolution": "node",
+        "lib": [
+            "es6",
+            "es2017",
+            "dom",
+        ],
+        "types": [
+            "node"
+        ],
+        "jsxFactory": "React.createElement",
+        "typeRoots": [
+            "./typings"
+        ],
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "paths": {
+        }
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.tsx"
+    ],
+    "exclude": [
+        "src/**/*.spec.ts",
+        "node_modules"
+    ]
+}
